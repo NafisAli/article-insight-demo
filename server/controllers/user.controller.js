@@ -1,7 +1,7 @@
 const userModel = require("../model/User");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
-const validator = require("../service/validator");
+const validator = require("../services/validator");
 
 module.exports = {
   // Create a new user at registration

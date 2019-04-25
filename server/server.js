@@ -5,7 +5,7 @@ const server = express();
 const userRoutes = require("./routes/user.routes");
 const config = require("./config/application");
 const database = require("./config/database");
-const verifyToken = require("./service/auth");
+const verifyToken = require("./services/auth");
 
 // Setup logger
 server.use(logger("dev"));
